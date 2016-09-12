@@ -1,15 +1,8 @@
-﻿===========
-
-== 
+============= 
  Ejercicio 1
-
-===========
-
-==
+=============
 Crear una función que lea una secuencia de datos, y un número o carácter. 
 La funcion devuelve la secuencia, pero cambiando los datos que son iguales al caracter entregado con el simbolo NA.
-
-
 
 DESARROLLO:
 Eje1<- function(a,b){ ##Parametro a secuencia y b numero o caracter
@@ -19,15 +12,9 @@ Eje1<- function(a,b){ ##Parametro a secuencia y b numero o caracter
 	print(a)}
 
 =============
-
- 
  Ejercicio 2
 =============
-
- 
 Crear una función que devolverá true si un entero dado está dentro de un vector.
-
-
 
 DESARROLLO
 Eje2<-function(a,b){ ##Parametros a vector y b entero
@@ -38,14 +25,10 @@ Eje2<-function(a,b){ ##Parametros a vector y b entero
 
 =============
  Ejercicio 3
-===========
-
-== 
+============= 
 Implementar una funcion que devuelva las dos soluciones de la ecuacion cuadratica.
 
-
 DESARROLLO
-
 Eje3<-function(a,b,d){ ##Tres parámetros de ecuacion cuadratica ax^2 + bx + c
 	r<- (b*b) - (4*a*d) ##Calculo discriminante
 	x1<- (-b + sqrt(r))/(2*a) ##Raiz primera
@@ -54,12 +37,8 @@ Eje3<-function(a,b,d){ ##Tres parámetros de ecuacion cuadratica ax^2 + bx + c
 
 =============
  Ejercicio 4
-===========
-
-==
+=============
 Crear una función que dado un vector y un entero devolverá cuántas veces aparece el número entero dentro del vector.
-
-
 
 DESARROLLO
 Eje4<-function(a,b){ ##Parametro a vector y b entero
@@ -71,8 +50,6 @@ Eje4<-function(a,b){ ##Parametro a vector y b entero
  Ejercicio 5
 =============
 Crear una función que dado un vector se imprima por pantalla  la media y la desviación estándar.
-
-
 
 DESARROLLO
 Eje5<-function(a){ ##Parametro vector
@@ -91,10 +68,6 @@ Eje5<-function(a){ ##Parametro vector
  Ejercicio 6
 =============
 Crear una función que dado un número entero va a calcular el número de divisores que tiene (que no sea 1 y sí mismo).
-
-
-
-
 
 DESARROLLO
 Eje6<-function(a){ ## Función con parámetro de un numero entero
